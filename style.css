@@ -1,0 +1,72 @@
+#heading{
+    font-size: larger;
+
+padding-left: 100px;
+animation-name: tanu;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes tanu{
+   from{ box-shadow: 5px 5px 5px red; }
+   to{box-shadow: 5px 5px 5px blue;} 
+}    
+
+body{
+    background-size: cover;
+}
+
+.heading1{
+    padding-left: 50px;
+    padding-right: 50px;
+    animation-name: Ritu;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;  
+}
+
+@keyframes Ritu{
+    from{ box-shadow: 5px 5px 5px red; }
+    to{box-shadow: 5px 5px 5px blue;} 
+ }  
+
+
+ .gif1{
+     float: right;
+     animation-name: matkali;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+
+ }
+
+ @keyframes matkali{
+     from{box-shadow: 1px 50px 50px white;}
+     to{box-shadow: 1px 50px 50px red;}
+     
+ }
+ .gif2{
+     float: left;
+     animation-name: example;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+ }
+ @keyframes example{
+    from{box-shadow: 50px 50px 50px white;}
+    to{box-shadow: 50px 50px 50px red;}
+ }
+ canvas{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background-color: black;
+    border-radius: 30px;
+    border-color: white;
+    animation-name: subodh;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes subodh{
+    from{box-shadow: 50px 50px 50px red;}
+    to{ box-shadow: 50px 50px 50px white;}
+}
